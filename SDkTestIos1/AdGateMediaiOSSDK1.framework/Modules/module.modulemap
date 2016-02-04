@@ -1,0 +1,6 @@
+framework module AdGateMediaiOSSDK {
+  umbrella header "AdGateMediaiOSSDK.h"
+
+  export *
+  module * { export * }
+}

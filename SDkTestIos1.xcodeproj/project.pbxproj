@@ -7,7 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		004947B51C17505400141E03 /* AdGateMediaiOSSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 004947B41C17505400141E03 /* AdGateMediaiOSSDK.framework */; };
 		006B899E1B493E24004890E2 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 006B899D1B493E24004890E2 /* main.m */; };
 		006B89A11B493E24004890E2 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 006B89A01B493E24004890E2 /* AppDelegate.m */; };
 		006B89A41B493E24004890E2 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 006B89A31B493E24004890E2 /* ViewController.m */; };
@@ -15,7 +14,8 @@
 		006B89A91B493E24004890E2 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 006B89A81B493E24004890E2 /* Images.xcassets */; };
 		006B89AC1B493E24004890E2 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 006B89AA1B493E24004890E2 /* LaunchScreen.xib */; };
 		006B89B81B493E24004890E2 /* SDkTestIos1Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 006B89B71B493E24004890E2 /* SDkTestIos1Tests.m */; };
-		00DCCA171B49433B009070B8 /* AdGateMediaiOSSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 00DCCA141B494322009070B8 /* AdGateMediaiOSSDK.framework */; };
+		779E3BB41C637B2F003DD8F2 /* AdGateMediaiOSSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 779E3BB21C637905003DD8F2 /* AdGateMediaiOSSDK.framework */; };
+		779E3BB51C637B2F003DD8F2 /* AdGateMediaiOSSDK.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 779E3BB21C637905003DD8F2 /* AdGateMediaiOSSDK.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -26,24 +26,23 @@
 			remoteGlobalIDString = 006B89971B493E24004890E2;
 			remoteInfo = SDkTestIos1;
 		};
-		00DCCA131B494322009070B8 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 00DCCA0E1B494322009070B8 /* AdGateMediaiOSSDK.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = 006B891F1B492CFC004890E2;
-			remoteInfo = AdGateMediaiOSSDK;
-		};
-		00DCCA151B494322009070B8 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 00DCCA0E1B494322009070B8 /* AdGateMediaiOSSDK.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = 006B892A1B492CFC004890E2;
-			remoteInfo = AdGateMediaiOSSDKTests;
-		};
 /* End PBXContainerItemProxy section */
 
+/* Begin PBXCopyFilesBuildPhase section */
+		779E3BB61C637B2F003DD8F2 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				779E3BB51C637B2F003DD8F2 /* AdGateMediaiOSSDK.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
-		004947B41C17505400141E03 /* AdGateMediaiOSSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AdGateMediaiOSSDK.framework; path = "../../../../Library/Developer/Xcode/DerivedData/SDkTestIos1-hhnnmzzsjiozmjdunluciqbrriby/Build/Products/Debug-iphoneos/AdGateMediaiOSSDK.framework"; sourceTree = "<group>"; };
 		006B89981B493E24004890E2 /* SDkTestIos1.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SDkTestIos1.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		006B899C1B493E24004890E2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		006B899D1B493E24004890E2 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -57,7 +56,7 @@
 		006B89B11B493E24004890E2 /* SDkTestIos1Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SDkTestIos1Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		006B89B61B493E24004890E2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		006B89B71B493E24004890E2 /* SDkTestIos1Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SDkTestIos1Tests.m; sourceTree = "<group>"; };
-		00DCCA0E1B494322009070B8 /* AdGateMediaiOSSDK.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = AdGateMediaiOSSDK.xcodeproj; path = ../AdGateMediaiOSSDK/AdGateMediaiOSSDK.xcodeproj; sourceTree = "<group>"; };
+		779E3BB21C637905003DD8F2 /* AdGateMediaiOSSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = AdGateMediaiOSSDK.framework; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -65,8 +64,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				004947B51C17505400141E03 /* AdGateMediaiOSSDK.framework in Frameworks */,
-				00DCCA171B49433B009070B8 /* AdGateMediaiOSSDK.framework in Frameworks */,
+				779E3BB41C637B2F003DD8F2 /* AdGateMediaiOSSDK.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -83,7 +81,6 @@
 		006B898F1B493E24004890E2 = {
 			isa = PBXGroup;
 			children = (
-				00DCCA0E1B494322009070B8 /* AdGateMediaiOSSDK.xcodeproj */,
 				006B899A1B493E24004890E2 /* SDkTestIos1 */,
 				006B89B41B493E24004890E2 /* SDkTestIos1Tests */,
 				006B89991B493E24004890E2 /* Products */,
@@ -102,7 +99,7 @@
 		006B899A1B493E24004890E2 /* SDkTestIos1 */ = {
 			isa = PBXGroup;
 			children = (
-				004947B41C17505400141E03 /* AdGateMediaiOSSDK.framework */,
+				779E3BB21C637905003DD8F2 /* AdGateMediaiOSSDK.framework */,
 				006B899F1B493E24004890E2 /* AppDelegate.h */,
 				006B89A01B493E24004890E2 /* AppDelegate.m */,
 				006B89A21B493E24004890E2 /* ViewController.h */,
@@ -141,15 +138,6 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		00DCCA0F1B494322009070B8 /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				00DCCA141B494322009070B8 /* AdGateMediaiOSSDK.framework */,
-				00DCCA161B494322009070B8 /* AdGateMediaiOSSDKTests.xctest */,
-			);
-			name = Products;
-			sourceTree = "<group>";
-		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -160,6 +148,7 @@
 				006B89941B493E24004890E2 /* Sources */,
 				006B89951B493E24004890E2 /* Frameworks */,
 				006B89961B493E24004890E2 /* Resources */,
+				779E3BB61C637B2F003DD8F2 /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
@@ -217,12 +206,6 @@
 			mainGroup = 006B898F1B493E24004890E2;
 			productRefGroup = 006B89991B493E24004890E2 /* Products */;
 			projectDirPath = "";
-			projectReferences = (
-				{
-					ProductGroup = 00DCCA0F1B494322009070B8 /* Products */;
-					ProjectRef = 00DCCA0E1B494322009070B8 /* AdGateMediaiOSSDK.xcodeproj */;
-				},
-			);
 			projectRoot = "";
 			targets = (
 				006B89971B493E24004890E2 /* SDkTestIos1 */,
@@ -230,23 +213,6 @@
 			);
 		};
 /* End PBXProject section */
-
-/* Begin PBXReferenceProxy section */
-		00DCCA141B494322009070B8 /* AdGateMediaiOSSDK.framework */ = {
-			isa = PBXReferenceProxy;
-			fileType = wrapper.framework;
-			path = AdGateMediaiOSSDK.framework;
-			remoteRef = 00DCCA131B494322009070B8 /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
-		00DCCA161B494322009070B8 /* AdGateMediaiOSSDKTests.xctest */ = {
-			isa = PBXReferenceProxy;
-			fileType = wrapper.cfbundle;
-			path = AdGateMediaiOSSDKTests.xctest;
-			remoteRef = 00DCCA151B494322009070B8 /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
-/* End PBXReferenceProxy section */
 
 /* Begin PBXResourcesBuildPhase section */
 		006B89961B493E24004890E2 /* Resources */ = {

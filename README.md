@@ -32,13 +32,23 @@ In order to get started you are required to add the following header file to eit
 Add the following simple lines to the code from where you want to launch the offer wall:
 
 ```java
+    	
+    NSDictionary *parameter = @{
+		@"s2" : @"Value s2",
+	        @"s3" : @"Value s3",
+	        @"s4" : @"Value s4",
+	        @"s5" : @"Value s5",
+    	};
 
     AdGateMedia *media = [[AdGateMedia alloc] initWith:wallCode and:userName withParent:self];
-    [media showOfferWall];
+    [media showOfferWallWithParams:parameter];
 
 ```
 
 Set the wallCode and userName to the appropriate values. You may get the your wall code from the [Dashboard](https://panel.adgatemedia.com/affiliate/vc-walls).
+
+You can pass extra parameter as input while loading the offer wall. Only allowed extra input keys are s2, s3, s4 and s5, 
+other than mentioned key, key and data will be neglected by [AdGateMedia showOfferWallWithParams: ] method.
 
 ###3. Demo app
 
