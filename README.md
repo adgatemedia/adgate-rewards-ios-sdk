@@ -47,8 +47,7 @@ Add the following simple lines to the code from where you want to launch the off
 
 Set the wallCode and userName to the appropriate values. You may get the your wall code from the [Dashboard](https://panel.adgatemedia.com/affiliate/vc-walls).
 
-You can pass extra parameter as input while loading the offer wall. Only allowed extra input keys are s2, s3, s4 and s5, 
-other than mentioned key, key and data will be neglected by [AdGateMedia showOfferWallWithParams: ] method.
+You can pass subids while loading the offer wall, specifically, s2, s3, s4 and s5.
 
 ###3. Demo app
 
