@@ -8,7 +8,7 @@
 
 
 #import "ViewController.h"
-#import <AdGateMediaiOSSDK/AdGateMediaiOSSDK.h>
+#import "AdGateMediaiOSSDK.h"
 
 @interface ViewController ()
 
