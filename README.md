@@ -17,8 +17,11 @@ Our SDK will allow you to easily present an offer wall in your native iOS app. T
 > Instructions are according to the lastest version of Xcode and iOS sdk
 
 1. Download the zip file from [here](https://70a4f2c223ea18c6955a-f91ceedaff225bee61d94aff812c7b48.ssl.cf5.rackcdn.com/AdGateMediaiOSSDK.framework.tar.gz)
-2. Drag the AdGateMediaiOSSDK.framework file into your project's Frameworks binder.
-3. Select the "Build Phases" tab from your project settings and make sure Foundation.framework is included in the "Link Binary With Libraries" section.
+2. Go to Build Settings/Search Paths/Header Search Paths and add $SOURCE_ROOT/include;
+
+Build Settings/Linking/Other Linker Flags - add -ObjC.
+3. Copy libAdGateMedia.a and include folder to your project.
+4. Add libAdGateMedia.a to “Link Binary With Librarys” and make sure AdGateMediaiOSSDK.bundle is added in the “Copy Bandle Resources”.
 
 In order to get started you are required to add the following header file to either your project's .pch file or at the location you are displaying the offer wall:
 
