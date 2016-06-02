@@ -16,7 +16,7 @@ Our SDK will allow you to easily present an offer wall in your native iOS app. T
 
 > Instructions are according to the lastest version of Xcode and iOS sdk
 
-1. Download the zip file from [here](https://70a4f2c223ea18c6955a-f91ceedaff225bee61d94aff812c7b48.ssl.cf5.rackcdn.com/AdGateMediaiOSSDK.framework.tar.gz)
+1. Download the zip file from the downloads directory
 2. Go to Build Settings/Search Paths/Header Search Paths and add $SOURCE_ROOT/include;
 
 Build Settings/Linking/Other Linker Flags - add -ObjC.
