@@ -14,8 +14,8 @@
 		006B89A91B493E24004890E2 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 006B89A81B493E24004890E2 /* Images.xcassets */; };
 		006B89AC1B493E24004890E2 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 006B89AA1B493E24004890E2 /* LaunchScreen.xib */; };
 		006B89B81B493E24004890E2 /* SDkTestIos1Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 006B89B71B493E24004890E2 /* SDkTestIos1Tests.m */; };
-		780DDAF61CE5B3C500FAE7E1 /* libAdGateMedia.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 780DDAF41CE5B3C500FAE7E1 /* libAdGateMedia.a */; };
-		780DDB0A1CE5BCD200FAE7E1 /* AdGateMediaiOSSDK.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 780DDB081CE5BCD200FAE7E1 /* AdGateMediaiOSSDK.bundle */; };
+		9A75BA091D01D50900F49AD2 /* AdGateMediaiOSSDK.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 9A75BA061D01D50900F49AD2 /* AdGateMediaiOSSDK.bundle */; };
+		9A75BA0A1D01D50900F49AD2 /* libAdGateMedia.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 9A75BA081D01D50900F49AD2 /* libAdGateMedia.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -55,10 +55,10 @@
 		006B89B11B493E24004890E2 /* SDkTestIos1Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SDkTestIos1Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		006B89B61B493E24004890E2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		006B89B71B493E24004890E2 /* SDkTestIos1Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SDkTestIos1Tests.m; sourceTree = "<group>"; };
-		780DDAF41CE5B3C500FAE7E1 /* libAdGateMedia.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libAdGateMedia.a; sourceTree = "<group>"; };
-		780DDB071CE5BCD200FAE7E1 /* AdGateMedia.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AdGateMedia.h; sourceTree = "<group>"; };
-		780DDB081CE5BCD200FAE7E1 /* AdGateMediaiOSSDK.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = AdGateMediaiOSSDK.bundle; sourceTree = "<group>"; };
-		780DDB091CE5BCD200FAE7E1 /* AdGateMediaiOSSDK.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AdGateMediaiOSSDK.h; sourceTree = "<group>"; };
+		9A75BA051D01D50900F49AD2 /* AdGateMedia.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AdGateMedia.h; sourceTree = "<group>"; };
+		9A75BA061D01D50900F49AD2 /* AdGateMediaiOSSDK.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = AdGateMediaiOSSDK.bundle; sourceTree = "<group>"; };
+		9A75BA071D01D50900F49AD2 /* AdGateMediaiOSSDK.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AdGateMediaiOSSDK.h; sourceTree = "<group>"; };
+		9A75BA081D01D50900F49AD2 /* libAdGateMedia.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libAdGateMedia.a; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -66,7 +66,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				780DDAF61CE5B3C500FAE7E1 /* libAdGateMedia.a in Frameworks */,
+				9A75BA0A1D01D50900F49AD2 /* libAdGateMedia.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -101,8 +101,8 @@
 		006B899A1B493E24004890E2 /* SDkTestIos1 */ = {
 			isa = PBXGroup;
 			children = (
-				780DDB051CE5BCD200FAE7E1 /* include */,
-				780DDAF41CE5B3C500FAE7E1 /* libAdGateMedia.a */,
+				9A75BA031D01D50900F49AD2 /* include */,
+				9A75BA081D01D50900F49AD2 /* libAdGateMedia.a */,
 				006B899F1B493E24004890E2 /* AppDelegate.h */,
 				006B89A01B493E24004890E2 /* AppDelegate.m */,
 				006B89A21B493E24004890E2 /* ViewController.h */,
@@ -141,20 +141,20 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		780DDB051CE5BCD200FAE7E1 /* include */ = {
+		9A75BA031D01D50900F49AD2 /* include */ = {
 			isa = PBXGroup;
 			children = (
-				780DDB061CE5BCD200FAE7E1 /* AdGateMedia */,
+				9A75BA041D01D50900F49AD2 /* AdGateMedia */,
 			);
 			path = include;
 			sourceTree = "<group>";
 		};
-		780DDB061CE5BCD200FAE7E1 /* AdGateMedia */ = {
+		9A75BA041D01D50900F49AD2 /* AdGateMedia */ = {
 			isa = PBXGroup;
 			children = (
-				780DDB071CE5BCD200FAE7E1 /* AdGateMedia.h */,
-				780DDB081CE5BCD200FAE7E1 /* AdGateMediaiOSSDK.bundle */,
-				780DDB091CE5BCD200FAE7E1 /* AdGateMediaiOSSDK.h */,
+				9A75BA051D01D50900F49AD2 /* AdGateMedia.h */,
+				9A75BA061D01D50900F49AD2 /* AdGateMediaiOSSDK.bundle */,
+				9A75BA071D01D50900F49AD2 /* AdGateMediaiOSSDK.h */,
 			);
 			path = AdGateMedia;
 			sourceTree = "<group>";
@@ -243,7 +243,7 @@
 				006B89A71B493E24004890E2 /* Main.storyboard in Resources */,
 				006B89AC1B493E24004890E2 /* LaunchScreen.xib in Resources */,
 				006B89A91B493E24004890E2 /* Images.xcassets in Resources */,
-				780DDB0A1CE5BCD200FAE7E1 /* AdGateMediaiOSSDK.bundle in Resources */,
+				9A75BA091D01D50900F49AD2 /* AdGateMediaiOSSDK.bundle in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -390,6 +390,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ALLOW_NON_MODULAR_INCLUDES_IN_FRAMEWORK_MODULES = YES;
+				ENABLE_BITCODE = NO;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(USER_LIBRARY_DIR)/Developer/Xcode/DerivedData/AdGateMediaiOSSDK-gqjcvayavppeuaebkjqedywnyimb/Build/Products/Debug-iphoneos",
@@ -416,6 +417,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ALLOW_NON_MODULAR_INCLUDES_IN_FRAMEWORK_MODULES = YES;
+				ENABLE_BITCODE = NO;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(USER_LIBRARY_DIR)/Developer/Xcode/DerivedData/AdGateMediaiOSSDK-gqjcvayavppeuaebkjqedywnyimb/Build/Products/Debug-iphoneos",
