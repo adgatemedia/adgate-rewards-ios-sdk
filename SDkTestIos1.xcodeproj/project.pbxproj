@@ -12,10 +12,13 @@
 		006B89A41B493E24004890E2 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 006B89A31B493E24004890E2 /* ViewController.m */; };
 		006B89A71B493E24004890E2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 006B89A51B493E24004890E2 /* Main.storyboard */; };
 		006B89A91B493E24004890E2 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 006B89A81B493E24004890E2 /* Images.xcassets */; };
-		006B89AC1B493E24004890E2 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 006B89AA1B493E24004890E2 /* LaunchScreen.xib */; };
 		006B89B81B493E24004890E2 /* SDkTestIos1Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 006B89B71B493E24004890E2 /* SDkTestIos1Tests.m */; };
-		9A75BA091D01D50900F49AD2 /* AdGateMediaiOSSDK.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 9A75BA061D01D50900F49AD2 /* AdGateMediaiOSSDK.bundle */; };
-		9A75BA0A1D01D50900F49AD2 /* libAdGateMedia.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 9A75BA081D01D50900F49AD2 /* libAdGateMedia.a */; };
+		32B1E2651F84B635003B70DF /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 32B1E2631F84B635003B70DF /* LaunchScreen.xib */; };
+		32FB23691FBF964600AD6565 /* NSData+NSHash.m in Sources */ = {isa = PBXBuildFile; fileRef = 32FB235E1FBF964600AD6565 /* NSData+NSHash.m */; };
+		32FB236A1FBF964600AD6565 /* NSString+NSHash.m in Sources */ = {isa = PBXBuildFile; fileRef = 32FB23601FBF964600AD6565 /* NSString+NSHash.m */; };
+		32FB236D1FBF964600AD6565 /* NSBundle+mybundle.m in Sources */ = {isa = PBXBuildFile; fileRef = 32FB23681FBF964600AD6565 /* NSBundle+mybundle.m */; };
+		B617D0F61FD009650045DBDB /* AdGateMediaiOSSDK.bundle in Resources */ = {isa = PBXBuildFile; fileRef = B617D0F21FD009650045DBDB /* AdGateMediaiOSSDK.bundle */; };
+		B617D0F71FD009650045DBDB /* libAdGateMedia.a in Frameworks */ = {isa = PBXBuildFile; fileRef = B617D0F51FD009650045DBDB /* libAdGateMedia.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -29,7 +32,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXCopyFilesBuildPhase section */
-		779E3BB61C637B2F003DD8F2 /* Embed Frameworks */ = {
+		78C391941CC7A4D20059B668 /* Embed Frameworks */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
 			dstPath = "";
@@ -51,14 +54,22 @@
 		006B89A31B493E24004890E2 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		006B89A61B493E24004890E2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		006B89A81B493E24004890E2 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
-		006B89AB1B493E24004890E2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		006B89B11B493E24004890E2 /* SDkTestIos1Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SDkTestIos1Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		006B89B61B493E24004890E2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		006B89B71B493E24004890E2 /* SDkTestIos1Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SDkTestIos1Tests.m; sourceTree = "<group>"; };
-		9A75BA051D01D50900F49AD2 /* AdGateMedia.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AdGateMedia.h; sourceTree = "<group>"; };
-		9A75BA061D01D50900F49AD2 /* AdGateMediaiOSSDK.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = AdGateMediaiOSSDK.bundle; sourceTree = "<group>"; };
-		9A75BA071D01D50900F49AD2 /* AdGateMediaiOSSDK.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AdGateMediaiOSSDK.h; sourceTree = "<group>"; };
-		9A75BA081D01D50900F49AD2 /* libAdGateMedia.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libAdGateMedia.a; sourceTree = "<group>"; };
+		32B1E2641F84B635003B70DF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		32BC95211F84A72D0095F741 /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
+		32FB235D1FBF964600AD6565 /* NSData+NSHash.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSData+NSHash.h"; sourceTree = "<group>"; };
+		32FB235E1FBF964600AD6565 /* NSData+NSHash.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSData+NSHash.m"; sourceTree = "<group>"; };
+		32FB235F1FBF964600AD6565 /* NSString+NSHash.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+NSHash.h"; sourceTree = "<group>"; };
+		32FB23601FBF964600AD6565 /* NSString+NSHash.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+NSHash.m"; sourceTree = "<group>"; };
+		32FB23671FBF964600AD6565 /* NSBundle+mybundle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSBundle+mybundle.h"; sourceTree = "<group>"; };
+		32FB23681FBF964600AD6565 /* NSBundle+mybundle.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSBundle+mybundle.m"; sourceTree = "<group>"; };
+		B617D0F11FD009650045DBDB /* AdGateMedia.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AdGateMedia.h; sourceTree = "<group>"; };
+		B617D0F21FD009650045DBDB /* AdGateMediaiOSSDK.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = AdGateMediaiOSSDK.bundle; sourceTree = "<group>"; };
+		B617D0F31FD009650045DBDB /* AdGateMediaiOSSDK.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AdGateMediaiOSSDK.h; sourceTree = "<group>"; };
+		B617D0F41FD009650045DBDB /* ADMAdGateVideo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ADMAdGateVideo.h; sourceTree = "<group>"; };
+		B617D0F51FD009650045DBDB /* libAdGateMedia.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libAdGateMedia.a; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -66,7 +77,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9A75BA0A1D01D50900F49AD2 /* libAdGateMedia.a in Frameworks */,
+				B617D0F71FD009650045DBDB /* libAdGateMedia.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -86,6 +97,7 @@
 				006B899A1B493E24004890E2 /* SDkTestIos1 */,
 				006B89B41B493E24004890E2 /* SDkTestIos1Tests */,
 				006B89991B493E24004890E2 /* Products */,
+				32BC95201F84A72D0095F741 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -101,15 +113,14 @@
 		006B899A1B493E24004890E2 /* SDkTestIos1 */ = {
 			isa = PBXGroup;
 			children = (
-				9A75BA031D01D50900F49AD2 /* include */,
-				9A75BA081D01D50900F49AD2 /* libAdGateMedia.a */,
+				32FB235A1FBF964600AD6565 /* include */,
 				006B899F1B493E24004890E2 /* AppDelegate.h */,
 				006B89A01B493E24004890E2 /* AppDelegate.m */,
 				006B89A21B493E24004890E2 /* ViewController.h */,
 				006B89A31B493E24004890E2 /* ViewController.m */,
 				006B89A51B493E24004890E2 /* Main.storyboard */,
+				32B1E2631F84B635003B70DF /* LaunchScreen.xib */,
 				006B89A81B493E24004890E2 /* Images.xcassets */,
-				006B89AA1B493E24004890E2 /* LaunchScreen.xib */,
 				006B899B1B493E24004890E2 /* Supporting Files */,
 			);
 			path = SDkTestIos1;
@@ -141,20 +152,52 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		9A75BA031D01D50900F49AD2 /* include */ = {
+		32BC95201F84A72D0095F741 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				9A75BA041D01D50900F49AD2 /* AdGateMedia */,
+				32BC95211F84A72D0095F741 /* JavaScriptCore.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		32FB235A1FBF964600AD6565 /* include */ = {
+			isa = PBXGroup;
+			children = (
+				32FB235B1FBF964600AD6565 /* 3rdParty */,
+				32FB23611FBF964600AD6565 /* AdGateMedia */,
+				32FB23671FBF964600AD6565 /* NSBundle+mybundle.h */,
+				32FB23681FBF964600AD6565 /* NSBundle+mybundle.m */,
 			);
 			path = include;
 			sourceTree = "<group>";
 		};
-		9A75BA041D01D50900F49AD2 /* AdGateMedia */ = {
+		32FB235B1FBF964600AD6565 /* 3rdParty */ = {
 			isa = PBXGroup;
 			children = (
-				9A75BA051D01D50900F49AD2 /* AdGateMedia.h */,
-				9A75BA061D01D50900F49AD2 /* AdGateMediaiOSSDK.bundle */,
-				9A75BA071D01D50900F49AD2 /* AdGateMediaiOSSDK.h */,
+				32FB235C1FBF964600AD6565 /* NSHash */,
+			);
+			path = 3rdParty;
+			sourceTree = "<group>";
+		};
+		32FB235C1FBF964600AD6565 /* NSHash */ = {
+			isa = PBXGroup;
+			children = (
+				32FB235D1FBF964600AD6565 /* NSData+NSHash.h */,
+				32FB235E1FBF964600AD6565 /* NSData+NSHash.m */,
+				32FB235F1FBF964600AD6565 /* NSString+NSHash.h */,
+				32FB23601FBF964600AD6565 /* NSString+NSHash.m */,
+			);
+			path = NSHash;
+			sourceTree = "<group>";
+		};
+		32FB23611FBF964600AD6565 /* AdGateMedia */ = {
+			isa = PBXGroup;
+			children = (
+				B617D0F11FD009650045DBDB /* AdGateMedia.h */,
+				B617D0F21FD009650045DBDB /* AdGateMediaiOSSDK.bundle */,
+				B617D0F31FD009650045DBDB /* AdGateMediaiOSSDK.h */,
+				B617D0F41FD009650045DBDB /* ADMAdGateVideo.h */,
+				B617D0F51FD009650045DBDB /* libAdGateMedia.a */,
 			);
 			path = AdGateMedia;
 			sourceTree = "<group>";
@@ -169,7 +212,7 @@
 				006B89941B493E24004890E2 /* Sources */,
 				006B89951B493E24004890E2 /* Frameworks */,
 				006B89961B493E24004890E2 /* Resources */,
-				779E3BB61C637B2F003DD8F2 /* Embed Frameworks */,
+				78C391941CC7A4D20059B668 /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
@@ -209,6 +252,8 @@
 				TargetAttributes = {
 					006B89971B493E24004890E2 = {
 						CreatedOnToolsVersion = 6.3.1;
+						DevelopmentTeam = W45QCX84Q6;
+						ProvisioningStyle = Manual;
 					};
 					006B89B01B493E24004890E2 = {
 						CreatedOnToolsVersion = 6.3.1;
@@ -240,10 +285,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				32B1E2651F84B635003B70DF /* LaunchScreen.xib in Resources */,
 				006B89A71B493E24004890E2 /* Main.storyboard in Resources */,
-				006B89AC1B493E24004890E2 /* LaunchScreen.xib in Resources */,
 				006B89A91B493E24004890E2 /* Images.xcassets in Resources */,
-				9A75BA091D01D50900F49AD2 /* AdGateMediaiOSSDK.bundle in Resources */,
+				B617D0F61FD009650045DBDB /* AdGateMediaiOSSDK.bundle in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -262,7 +307,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				006B89A41B493E24004890E2 /* ViewController.m in Sources */,
+				32FB23691FBF964600AD6565 /* NSData+NSHash.m in Sources */,
+				32FB236D1FBF964600AD6565 /* NSBundle+mybundle.m in Sources */,
 				006B89A11B493E24004890E2 /* AppDelegate.m in Sources */,
+				32FB236A1FBF964600AD6565 /* NSString+NSHash.m in Sources */,
 				006B899E1B493E24004890E2 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -294,10 +342,10 @@
 			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
-		006B89AA1B493E24004890E2 /* LaunchScreen.xib */ = {
+		32B1E2631F84B635003B70DF /* LaunchScreen.xib */ = {
 			isa = PBXVariantGroup;
 			children = (
-				006B89AB1B493E24004890E2 /* Base */,
+				32B1E2641F84B635003B70DF /* Base */,
 			);
 			name = LaunchScreen.xib;
 			sourceTree = "<group>";
@@ -322,7 +370,8 @@
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_IDENTITY = "iPhone Developer: Sumit Oberoi (KHX4P76LKY)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Sumit Oberoi (KHX4P76LKY)";
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
@@ -341,9 +390,10 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
+				PROVISIONING_PROFILE = "4057985b-d033-4d7e-826b-cea455ee1cdf";
 				SDKROOT = iphoneos;
 			};
 			name = Debug;
@@ -365,7 +415,8 @@
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_IDENTITY = "iPhone Developer: Sumit Oberoi (KHX4P76LKY)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Sumit Oberoi (KHX4P76LKY)";
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_NS_ASSERTIONS = NO;
@@ -378,8 +429,9 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
+				PROVISIONING_PROFILE = "4057985b-d033-4d7e-826b-cea455ee1cdf";
 				SDKROOT = iphoneos;
 				VALIDATE_PRODUCT = YES;
 			};
@@ -390,26 +442,30 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ALLOW_NON_MODULAR_INCLUDES_IN_FRAMEWORK_MODULES = YES;
-				ENABLE_BITCODE = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer: Sumit Oberoi (KHX4P76LKY)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Sumit Oberoi (KHX4P76LKY)";
+				DEVELOPMENT_TEAM = W45QCX84Q6;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
-					"$(USER_LIBRARY_DIR)/Developer/Xcode/DerivedData/AdGateMediaiOSSDK-gqjcvayavppeuaebkjqedywnyimb/Build/Products/Debug-iphoneos",
 					"$(PROJECT_DIR)/SDkTestIos1",
 					"$(PROJECT_DIR)",
-					"$(USER_LIBRARY_DIR)/Developer/Xcode/DerivedData/SDkTestIos1-hhnnmzzsjiozmjdunluciqbrriby/Build/Products/Debug-iphoneos",
 				);
 				HEADER_SEARCH_PATHS = $SOURCE_ROOT/include;
 				INFOPLIST_FILE = SDkTestIos1/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/SDkTestIos1",
 					"$(PROJECT_DIR)",
+					"$(PROJECT_DIR)/SDkTestIos1/include/AdGateMedia",
 				);
 				OTHER_LDFLAGS = "-ObjC";
-				PRODUCT_BUNDLE_IDENTIFIER = com.iv.SDkTestIos1;
+				PRODUCT_BUNDLE_IDENTIFIER = com.adgatemedia.SDkTestIos1;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				TARGETED_DEVICE_FAMILY = 1;
+				PROVISIONING_PROFILE = "";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
@@ -418,26 +474,30 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ALLOW_NON_MODULAR_INCLUDES_IN_FRAMEWORK_MODULES = YES;
-				ENABLE_BITCODE = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer: Sumit Oberoi (KHX4P76LKY)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Sumit Oberoi (KHX4P76LKY)";
+				DEVELOPMENT_TEAM = W45QCX84Q6;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
-					"$(USER_LIBRARY_DIR)/Developer/Xcode/DerivedData/AdGateMediaiOSSDK-gqjcvayavppeuaebkjqedywnyimb/Build/Products/Debug-iphoneos",
 					"$(PROJECT_DIR)/SDkTestIos1",
 					"$(PROJECT_DIR)",
-					"$(USER_LIBRARY_DIR)/Developer/Xcode/DerivedData/SDkTestIos1-hhnnmzzsjiozmjdunluciqbrriby/Build/Products/Debug-iphoneos",
 				);
 				HEADER_SEARCH_PATHS = $SOURCE_ROOT/include;
 				INFOPLIST_FILE = SDkTestIos1/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/SDkTestIos1",
 					"$(PROJECT_DIR)",
+					"$(PROJECT_DIR)/SDkTestIos1/include/AdGateMedia",
 				);
 				OTHER_LDFLAGS = "-ObjC";
-				PRODUCT_BUNDLE_IDENTIFIER = com.iv.SDkTestIos1;
+				PRODUCT_BUNDLE_IDENTIFIER = com.adgatemedia.SDkTestIos1;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				TARGETED_DEVICE_FAMILY = 1;
+				PROVISIONING_PROFILE = "";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
 		};

@@ -1,9 +1,9 @@
 //
 //  AppDelegate.h
-//  SDkTestIos1
+//  SDKTest
 //
-//  Created by vishal dharnkar on 05/07/15.
-//  Copyright (c) 2015 vishal dharnkar. All rights reserved.
+//  Created by Adgate on 23/08/17.
+//  Copyright © 2017 Adgate. All rights reserved.
 //
 
 #import <UIKit/UIKit.h>

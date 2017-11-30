@@ -1,0 +1,40 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "F1A0DA06FD73189333FC753FB89B97AFE77DACDE",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+    "57f18cf4-932e-4d1b-b3ca-a19f78e21e60++505" : {
+      "DVTSourceControlWorkingCopyRepositoryTagsLocationKey" : "tags",
+      "DVTSourceControlWorkingCopyRepositoryPrimaryBranchLocationKey" : "trunk"
+    }
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "57f18cf4-932e-4d1b-b3ca-a19f78e21e60++505" : 0,
+    "9FE705B1A6D3188D7A2BDE495BFADA261E62FEF0" : 0,
+    "F1A0DA06FD73189333FC753FB89B97AFE77DACDE" : 0
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "ACA69B8F-5C1C-4C29-91D9-15A32645E33C",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "57f18cf4-932e-4d1b-b3ca-a19f78e21e60++505" : "",
+    "9FE705B1A6D3188D7A2BDE495BFADA261E62FEF0" : "AdsGate\/",
+    "F1A0DA06FD73189333FC753FB89B97AFE77DACDE" : "iossdk\/"
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "SDkTestIos1",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "SDkTestIos1\/SDkTestIos1.xcodeproj",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "http:\/\/192.168.1.253:18080\/svn\/bulling_ios",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Subversion",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "57f18cf4-932e-4d1b-b3ca-a19f78e21e60++505"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/agmgithub\/iossdk.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "9FE705B1A6D3188D7A2BDE495BFADA261E62FEF0"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/agmgithub\/iossdk.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "F1A0DA06FD73189333FC753FB89B97AFE77DACDE"
+    }
+  ]
+}

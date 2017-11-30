@@ -9,14 +9,20 @@
 #import <Foundation/Foundation.h>
 #import <UIKit/UIKit.h>
 
-@interface AdGateMedia : NSObject{
-	UIViewController *parentView;
-	NSString *strVcCode;
-	NSString *strUserId;
-}
+@class ADMOffer;
 
--(void)showOfferWallWithParams:(NSDictionary *)parametar;
+@interface AdGateMedia : NSObject
 
--(id)initWith:(NSString*)vcCode and:(NSString*)userId withParent:(UIViewController*)view;
+@property (nonatomic, strong) NSString *strRewardCode;
+@property (nonatomic, strong) NSString *strUserId;
+
+
+- (id)initWithRewardCode:(NSString*)rewardCode userId:(NSString*)userId parentViewController:(UIViewController*)parentViewController;
+
+- (void)loadOfferWall:(NSDictionary *)parameter onOfferWallLoadSuccess:(void (^)(void))successHandler OnOfferWallLoadFailed:(void (^)(NSError *error))failedHandler;
+
+- (void)showOfferWall:(void (^)(void))closedHandler;
+
+- (void)getConversions:(NSDictionary *)parameters rewardCode:(NSString*)rewardCode userId:(NSString*)userId completionHandler:(void (^)(NSArray *offers, NSError *error))completionNadler;
 
 @end
