@@ -17,8 +17,8 @@
 		32FB23691FBF964600AD6565 /* NSData+NSHash.m in Sources */ = {isa = PBXBuildFile; fileRef = 32FB235E1FBF964600AD6565 /* NSData+NSHash.m */; };
 		32FB236A1FBF964600AD6565 /* NSString+NSHash.m in Sources */ = {isa = PBXBuildFile; fileRef = 32FB23601FBF964600AD6565 /* NSString+NSHash.m */; };
 		32FB236D1FBF964600AD6565 /* NSBundle+mybundle.m in Sources */ = {isa = PBXBuildFile; fileRef = 32FB23681FBF964600AD6565 /* NSBundle+mybundle.m */; };
-		B617D0F61FD009650045DBDB /* AdGateMediaiOSSDK.bundle in Resources */ = {isa = PBXBuildFile; fileRef = B617D0F21FD009650045DBDB /* AdGateMediaiOSSDK.bundle */; };
-		B617D0F71FD009650045DBDB /* libAdGateMedia.a in Frameworks */ = {isa = PBXBuildFile; fileRef = B617D0F51FD009650045DBDB /* libAdGateMedia.a */; };
+		FD522427223046470074CC08 /* AdGateMediaiOSSDK.bundle in Resources */ = {isa = PBXBuildFile; fileRef = FD522426223046460074CC08 /* AdGateMediaiOSSDK.bundle */; };
+		FDFDBE9C2230697D00C24EB6 /* libAdGateMedia.a in Frameworks */ = {isa = PBXBuildFile; fileRef = FD522424223046110074CC08 /* libAdGateMedia.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -70,6 +70,16 @@
 		B617D0F31FD009650045DBDB /* AdGateMediaiOSSDK.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AdGateMediaiOSSDK.h; sourceTree = "<group>"; };
 		B617D0F41FD009650045DBDB /* ADMAdGateVideo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ADMAdGateVideo.h; sourceTree = "<group>"; };
 		B617D0F51FD009650045DBDB /* libAdGateMedia.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libAdGateMedia.a; sourceTree = "<group>"; };
+		FD522424223046110074CC08 /* libAdGateMedia.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libAdGateMedia.a; path = SDkTestIos1/include/libAdGateMedia.a; sourceTree = "<group>"; };
+		FD522426223046460074CC08 /* AdGateMediaiOSSDK.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; name = AdGateMediaiOSSDK.bundle; path = SDkTestIos1/include/AdGateMediaiOSSDK.bundle; sourceTree = "<group>"; };
+		FD892063216F9B8C00557368 /* circle-close.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "circle-close.png"; path = "SDkTestIos1/include/AdGateMedia/circle-close.png"; sourceTree = "<group>"; };
+		FD892064216F9B8C00557368 /* circle-close@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "circle-close@2x.png"; path = "SDkTestIos1/include/AdGateMedia/circle-close@2x.png"; sourceTree = "<group>"; };
+		FD892065216F9B8D00557368 /* ADMVideoViewController~iphone.nib */ = {isa = PBXFileReference; lastKnownFileType = wrapper.nib; name = "ADMVideoViewController~iphone.nib"; path = "SDkTestIos1/include/AdGateMedia/ADMVideoViewController~iphone.nib"; sourceTree = "<group>"; };
+		FD892066216F9B8D00557368 /* circle-close@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "circle-close@3x.png"; path = "SDkTestIos1/include/AdGateMedia/circle-close@3x.png"; sourceTree = "<group>"; };
+		FD892067216F9B8D00557368 /* OfferViewController~iphone.nib */ = {isa = PBXFileReference; lastKnownFileType = wrapper.nib; name = "OfferViewController~iphone.nib"; path = "SDkTestIos1/include/AdGateMedia/OfferViewController~iphone.nib"; sourceTree = "<group>"; };
+		FD89206D216F9CAD00557368 /* adgate_logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = adgate_logo.png; path = SDkTestIos1/include/AdGateMedia/adgate_logo.png; sourceTree = "<group>"; };
+		FD89206E216F9CAD00557368 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = file.bplist; name = Info.plist; path = SDkTestIos1/include/AdGateMedia/Info.plist; sourceTree = "<group>"; };
+		FDC1124B213888CD00F3BB02 /* SDkTestIos1 */ = {isa = PBXFileReference; lastKnownFileType = folder; path = SDkTestIos1; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,7 +87,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B617D0F71FD009650045DBDB /* libAdGateMedia.a in Frameworks */,
+				FDFDBE9C2230697D00C24EB6 /* libAdGateMedia.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -94,6 +104,14 @@
 		006B898F1B493E24004890E2 = {
 			isa = PBXGroup;
 			children = (
+				FD522426223046460074CC08 /* AdGateMediaiOSSDK.bundle */,
+				FD89206D216F9CAD00557368 /* adgate_logo.png */,
+				FD89206E216F9CAD00557368 /* Info.plist */,
+				FD892065216F9B8D00557368 /* ADMVideoViewController~iphone.nib */,
+				FD892063216F9B8C00557368 /* circle-close.png */,
+				FD892064216F9B8C00557368 /* circle-close@2x.png */,
+				FD892066216F9B8D00557368 /* circle-close@3x.png */,
+				FD892067216F9B8D00557368 /* OfferViewController~iphone.nib */,
 				006B899A1B493E24004890E2 /* SDkTestIos1 */,
 				006B89B41B493E24004890E2 /* SDkTestIos1Tests */,
 				006B89991B493E24004890E2 /* Products */,
@@ -155,6 +173,8 @@
 		32BC95201F84A72D0095F741 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				FD522424223046110074CC08 /* libAdGateMedia.a */,
+				FDC1124B213888CD00F3BB02 /* SDkTestIos1 */,
 				32BC95211F84A72D0095F741 /* JavaScriptCore.framework */,
 			);
 			name = Frameworks;
@@ -252,8 +272,8 @@
 				TargetAttributes = {
 					006B89971B493E24004890E2 = {
 						CreatedOnToolsVersion = 6.3.1;
-						DevelopmentTeam = W45QCX84Q6;
-						ProvisioningStyle = Manual;
+						DevelopmentTeam = 827X265F96;
+						ProvisioningStyle = Automatic;
 					};
 					006B89B01B493E24004890E2 = {
 						CreatedOnToolsVersion = 6.3.1;
@@ -285,10 +305,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FD522427223046470074CC08 /* AdGateMediaiOSSDK.bundle in Resources */,
 				32B1E2651F84B635003B70DF /* LaunchScreen.xib in Resources */,
 				006B89A71B493E24004890E2 /* Main.storyboard in Resources */,
 				006B89A91B493E24004890E2 /* Images.xcassets in Resources */,
-				B617D0F61FD009650045DBDB /* AdGateMediaiOSSDK.bundle in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -442,9 +462,10 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ALLOW_NON_MODULAR_INCLUDES_IN_FRAMEWORK_MODULES = YES;
-				CODE_SIGN_IDENTITY = "iPhone Developer: Sumit Oberoi (KHX4P76LKY)";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Sumit Oberoi (KHX4P76LKY)";
-				DEVELOPMENT_TEAM = W45QCX84Q6;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 827X265F96;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/SDkTestIos1",
@@ -459,7 +480,9 @@
 					"$(PROJECT_DIR)/SDkTestIos1",
 					"$(PROJECT_DIR)",
 					"$(PROJECT_DIR)/SDkTestIos1/include/AdGateMedia",
+					"$(PROJECT_DIR)/SDkTestIos1/include",
 				);
+				ONLY_ACTIVE_ARCH = NO;
 				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_BUNDLE_IDENTIFIER = com.adgatemedia.SDkTestIos1;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -474,9 +497,10 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ALLOW_NON_MODULAR_INCLUDES_IN_FRAMEWORK_MODULES = YES;
-				CODE_SIGN_IDENTITY = "iPhone Developer: Sumit Oberoi (KHX4P76LKY)";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Sumit Oberoi (KHX4P76LKY)";
-				DEVELOPMENT_TEAM = W45QCX84Q6;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 827X265F96;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/SDkTestIos1",
@@ -491,11 +515,14 @@
 					"$(PROJECT_DIR)/SDkTestIos1",
 					"$(PROJECT_DIR)",
 					"$(PROJECT_DIR)/SDkTestIos1/include/AdGateMedia",
+					"$(PROJECT_DIR)/SDkTestIos1/include",
 				);
+				ONLY_ACTIVE_ARCH = NO;
 				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_BUNDLE_IDENTIFIER = com.adgatemedia.SDkTestIos1;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "";
+				"PROVISIONING_PROFILE[arch=*]" = "";
 				PROVISIONING_PROFILE_SPECIFIER = "";
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
