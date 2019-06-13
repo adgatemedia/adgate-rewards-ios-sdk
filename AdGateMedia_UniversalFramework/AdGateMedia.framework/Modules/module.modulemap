@@ -1,0 +1,6 @@
+framework module AdGateMedia {
+  umbrella header "AdGateMedia.h"
+
+  export *
+  module * { export * }
+}
