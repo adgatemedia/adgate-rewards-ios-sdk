@@ -163,7 +163,7 @@ class ViewController : UIViewController {
 
     @IBAction func loadAndShowVideoAction(_ sender: Any) {
 
-        guard let rewardCode = textFieldRewardCode.text, let userId = textFieldUserID.text else {
+        guard let videoCode = textFieldVideoCode.text, let userId = textFieldUserID.text else {
             return
         }
         
@@ -178,7 +178,7 @@ class ViewController : UIViewController {
         }
 
         startAnimating()
-        adgateVideo?.load(rewardCode, userId: userId, subIds: dictParameters, onVideoLoadSuccess: {
+        adgateVideo?.load(videoCode, userId: userId, subIds: dictParameters, onVideoLoadSuccess: {
             self.stopAnimating()
             print("video downloaded")
             self.adgateVideo?.show(self, showCrossButtonAfterDelay: 0, onVideoWatchedAndClosed: {
